@@ -1,0 +1,89 @@
+$body-bg: #f5f5fb;
+$side-bg: #ffffff;
+$box-bg: #c4c4c4;
+$box-gap: 20px;
+$side-l-w: 200px;
+$side-r-w: 250px;
+
+body {
+  background-color: $body-bg;
+}
+
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 98vh;
+
+  .aside1 {
+    background-color: $side-bg;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    width: $side-l-w;
+
+    .asideContent {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-self: flex-start;
+      gap: $box-gap;
+      .asideHeader {
+        display: flex;
+        flex-flow: row nowrap;
+
+        gap: $box-gap;
+        .avatar {
+          height: 30px;
+          width: 30px;
+          background-color: $box-bg;
+        }
+        .avatarText {
+          width: 118px;
+          height: 30px;
+          background-color: $box-bg;
+        }
+      }
+      .asideText {
+        background-color: $box-bg;
+        width: 168px;
+        height: 30px;
+      }
+    }
+    .asideFooter {
+      width: 168px;
+      height: 200px;
+      background-color: $box-bg;
+    }
+  }
+
+  .centerSection {
+    height: 98vh;
+    background-color: $body-bg;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .centerTop {
+      display: flex;
+      flex-flow: column nowrap;
+
+      .topHeader {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        .topHeaderLeft {
+          width: 336px;
+          height: 40px;
+          background-color: $box-bg;
+        }
+
+        .topHeaderRight {
+          width: 40px;
+          height: 40px;
+          background-color: $box-bg;
+        }
+      }
+    }
+  }
+}

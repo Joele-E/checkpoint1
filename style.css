@@ -1,0 +1,74 @@
+body {
+  background-color: #f5f5fb;
+}
+
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 98vh;
+}
+.mainContainer .aside1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  width: 200px;
+}
+.mainContainer .aside1 .asideContent {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-self: flex-start;
+  gap: 20px;
+}
+.mainContainer .aside1 .asideContent .asideHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+.mainContainer .aside1 .asideContent .asideHeader .avatar {
+  height: 30px;
+  width: 30px;
+  background-color: #c4c4c4;
+}
+.mainContainer .aside1 .asideContent .asideHeader .avatarText {
+  width: 118px;
+  height: 30px;
+  background-color: #c4c4c4;
+}
+.mainContainer .aside1 .asideContent .asideText {
+  background-color: #c4c4c4;
+  width: 168px;
+  height: 30px;
+}
+.mainContainer .aside1 .asideFooter {
+  width: 168px;
+  height: 200px;
+  background-color: #c4c4c4;
+}
+.mainContainer .centerSection {
+  height: 98vh;
+  background-color: #f5f5fb;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.mainContainer .centerSection .centerTop {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.mainContainer .centerSection .centerTop .topHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.mainContainer .centerSection .centerTop .topHeader .topHeaderLeft {
+  width: 336px;
+  height: 40px;
+  background-color: #c4c4c4;
+}
+.mainContainer .centerSection .centerTop .topHeader .topHeaderRight {
+  width: 40px;
+  height: 40px;
+  background-color: #c4c4c4;
+}/*# sourceMappingURL=style.css.map */
